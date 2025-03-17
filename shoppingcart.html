@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cart-header">
+            <a href="#" class="logo">Shopping Cart</a>
+            <div id="cart-icon">
+                <i class="ri-shopping-cart-2-line"></i>
+                <span class="cart-item-count"></span>
+            </div>
+        </header>
+
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+            <!--   <div class="cart-box">
+                    <img src="Images/sesame-street.png" class="cart-img">
+                    <div class="cart-detail">
+                        <h2 class="cart-product-title">Sesame Street Van Slip Ons</h2>
+                        <span class="cart-price">$100</span>
+                        <div class="cart-quantity">
+                            <button id="decrement">-</button>
+                            <span class="number">1</span>
+                            <button id="increment">+</button>
+                        </div>
+                    </div>
+                    <i class="ri-delete-bin-line cart-remove"></i>
+                </div> -->
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button class="btn-buy">Buy Now</button>
+            <i class="ri-close-line" id="cart-close"></i>
+        </div>
+
+        <section class="shop">
+            <h1 class="section-title">Shop Products</h1>
+            <div class="product-content">
+                <div class="product-box">
+                    <div class="img-box">
+                        <img src="Images/blue-galaxy-shoes.jpg" alt="blue-galaxy-shoes">
+                    </div>
+                    <h2 class="product-title">Blue Galaxy Van Slip Ons</h2>
+                    <div class="price-and-cart">
+                    <span class="price">$145.99</span>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                    </div>
+                </div>
+            
+            
+                <div class="product-box">
+                    <div class="img-box">
+                        <img src="Images/coco-melon-shoes.jpg" alt="coco-melon-shoes">
+                    </div>
+                    <h2 class="product-title">Coco Melon Slip Ons</h2>
+                    <div class="price-and-cart">
+                    <span class="price">$100</span>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="img-box">
+                        <img src="Images/how-to-train-your-dragon.jpg" alt="how-to-train-your-dragon">
+                    </div>
+                    <h2 class="product-title">HTTYD Classic Vans</h2>
+                    <div class="price-and-cart">
+                    <span class="price">$145.99</span>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="img-box">
+                        <img src="Images/purple-galaxy-shoes.jpg" alt="purple-galaxy-shoes">
+                    </div>
+                    <h2 class="product-title">Purple Galaxy Van Slip Ons</h2>
+                    <div class="price-and-cart">
+                    <span class="price">$145.99</span>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="img-box">
+                        <img src="Images/sesame-street.png" alt="sesame-street">
+                    </div>
+                    <h2 class="product-title">Custom Name Sesame Street Slip Ons</h2>
+                    <div class="price-and-cart">
+                    <span class="price">$100</span>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                    </div>
+                </div>
+                
+                <div class="product-box">
+                    <div class="img-box">
+                        <img src="Images/curious-george-painted-toms.jpg" alt="curious-george-painted-toms">
+                    </div>
+                    <h2 class="product-title">Curious George Kids TOMS</h2>
+                    <div class="price-and-cart">
+                    <span class="price">$100</span>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="img-box">
+                        <img src="Images/peacock-marker-vans.jpg" alt="peacock-marker-vans">
+                    </div>
+                    <h2 class="product-title">Peacock Vans</h2>
+                    <div class="price-and-cart">
+                    <span class="price">$145.99</span>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="img-box">
+                        <img src="Images/starry-night-laced-shoes.jpg" alt="starry-night-laced-shoes">
+                    </div>
+                    <h2 class="product-title">Starry Night Classic Vans</h2>
+                    <div class="price-and-cart">
+                    <span class="price">$145.99</span>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                    </div>
+                </div>
+                
+                <div class="product-box">
+                    <div class="img-box">
+                        <img src="Images/dolphin-painted-toms.jpg" alt="dolphin-painted-toms">
+                    </div>
+                    <h2 class="product-title">Dolphin Painted TOMS</h2>
+                    <div class="price-and-cart">
+                    <span class="price">$145.99</span>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                    </div>
+                </div>    
+            </div>
+            </div>
+        </section>
+
+
+        <script src="product.js"></script>
+    </body>
+</html>
